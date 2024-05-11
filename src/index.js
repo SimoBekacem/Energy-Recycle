@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import First from './pages/First';
+import Register from './pages/Register';
 
 const router = createBrowserRouter([
 	{
 		path: '/first',
 		element: <First />,
 	},
+	{
+		path: '/Register',
+		element:<Register />,
+	}
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
