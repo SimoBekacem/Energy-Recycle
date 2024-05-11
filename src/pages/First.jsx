@@ -1,10 +1,11 @@
 import React from "react";
 import "./First.css";
 import logo from "../assets/logo.png"
+import vector from "../assets/Vector.svg"
 
 const First =() =>{
 return(
-    <div>
+    <div className="body">
         <div className="menu">
             <img src={logo}></img>
             <button >Why Us ?</button>
@@ -15,7 +16,7 @@ return(
             <p>Make the
                 difference and 
                 live the challenge</p>
-            <img src=""></img>
+            <img src={vector}></img>
         </div>
     </div>
 
