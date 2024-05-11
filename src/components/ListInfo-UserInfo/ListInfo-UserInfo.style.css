@@ -1,0 +1,32 @@
+.userInfo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	gap: 20px;
+}
+.userInfo-image {
+	width: 150px;
+	height: 150px;
+	background-color: aqua;
+	border-radius: 5px;
+}
+.userInfo-descreption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.userInfo-descreption-name {
+	margin: 0;
+}
+.userInfo-descreption-tag {
+	margin: 0;
+}
+.userInfo-descreption-numb {
+	margin: 0;
+}
+.userInfo-descreption-space {
+	margin: 0;
+}

@@ -1,0 +1,9 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.home {
+	background-color: rgb(2, 48, 71);
+	padding: 10px 20px;
+}

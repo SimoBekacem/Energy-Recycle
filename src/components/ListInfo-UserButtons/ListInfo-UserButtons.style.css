@@ -1,0 +1,40 @@
+.userButtons {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 10px;
+	width: 50%;
+}
+.userButtons-fist {
+	display: flex;
+	justify-content: start;
+}
+.userButtons-fist-collab {
+	padding: 10px;
+	font-size: larger;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 5px;
+}
+.userButtons-seconde {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+.userButtons-seconde-dele {
+	padding: 10px;
+	font-size: larger;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 5px;
+}
+.userButtons-seconde-map {
+	padding: 10px;
+	font-size: larger;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 5px;
+}
