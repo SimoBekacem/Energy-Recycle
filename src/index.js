@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
-import Register from './pages/Register';
-import SignIn from './pages/SignIn';
+import Register from './pages/Sign/Register';
+import SignIn from './pages/Sign/SignIn';
 import First from './pages/First/First';
 import Home from './pages/Home/Home.page';
 
