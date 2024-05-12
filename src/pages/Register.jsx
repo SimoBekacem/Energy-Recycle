@@ -40,12 +40,11 @@ export default function Register() {
     };
 
     return (
-        <div>
+        <div className="Body">
+            <div className='overlay'></div>
             
-            <div className='Title'>
-                <img src={logo}></img>
-                <h2>Energie Recycle</h2>
-            </div>
+            <img src={logo}></img>
+                
 
             <form onSubmit={handleSubmit} id='Form'>
                 <label htmlFor="username">Username:</label>

@@ -1,7 +1,13 @@
-* {
-    box-sizing: border-box;
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    padding: 0;
+    background-color: #023047;
     
-    color: #fcfcfc;
 }
 
 
@@ -28,4 +34,22 @@ input {
     width: 100%;
     padding: 6px 9px;
 
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/background.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    mix-blend-mode: soft-light;
+}
+a{
+    position:bottom;
+    color: aliceblue;
+    text-decoration:none ;
 }

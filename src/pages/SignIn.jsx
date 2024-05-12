@@ -30,11 +30,10 @@ export default function SignIn() {
     };
 
     return (
-        <div>
-            <div className='Title'>
+        <div className="Body">
+            <div className='overlay'></div>
                 <img src={logo}></img>
-                <h2>Energie Recycle</h2>
-            </div>
+                
             <form onSubmit={handleSubmit} className='Form'>
                 <label htmlFor="usernameOrEmail">Username or Email:</label>
                 <input 
