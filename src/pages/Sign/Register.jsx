@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/logo.png"
+import logo from "../../assets/logo.png"
 import './Sign.css';
 
 
@@ -41,6 +41,7 @@ export default function Register() {
 
     return (
         <div className="Body">
+            
             <div className='overlay'></div>
             
             <img src={logo}></img>
