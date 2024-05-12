@@ -8,3 +8,7 @@
 	font-weight: bold;
 	color: white;
 }
+.link-inderline {
+	padding: 0 10px;
+	border-bottom: 5px solid white;
+}

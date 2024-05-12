@@ -30,6 +30,8 @@
 	font-weight: bold;
 	background-color: white;
 	border-radius: 5px;
+	color: red;
+	border: 3px solid red;
 }
 .userButtons-seconde-map {
 	padding: 10px;
@@ -37,4 +39,6 @@
 	font-weight: bold;
 	background-color: white;
 	border-radius: 5px;
+	color: green;
+	border: 3px solid green;
 }
