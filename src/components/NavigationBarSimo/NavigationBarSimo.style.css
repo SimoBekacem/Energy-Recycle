@@ -1,14 +1,21 @@
 .navigation-bar {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	padding: 10px 0;
 }
-.navigagation-bar-link {
+
+.navigation-bar-link {
 	font-weight: bold;
 	color: white;
+	text-decoration: none;
+	padding: 0 15px;
 }
-.link-inderline {
-	padding: 0 10px;
+
+.link-underline {
 	border-bottom: 5px solid white;
+}
+
+.navigation-bar-link:hover {
+	opacity: 0.8;
 }

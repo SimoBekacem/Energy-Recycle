@@ -1,4 +1,5 @@
 import React from 'react';
+import MainComponent from '../Profile/MainComponent.component';
 
 import './HeaderSimo.style.css';
 
@@ -9,7 +10,7 @@ export default function Header() {
 	return (
 		<div className='header'>
 			<img src={logo} alt='logo' width='200px' />
-			<img src={sidbar} alt='sidbar' width='50px' />
+			<MainComponent />
 		</div>
 	);
 }

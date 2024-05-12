@@ -9,7 +9,7 @@ export const routeSlice = createSlice({
 	initialState,
 	reducers: {
 		changeRoute: (state, action) => {
-			state.value += action.payload;
+			state.value = action.payload;
 		},
 	},
 });
