@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from "../../assets/logo.png"
 import './Sign.css';
 
@@ -40,16 +41,16 @@ export default function Register() {
     };
 
     return (
-        <div className="Body">
+        <div className="core">
             
             <div className='overlay'></div>
             
             <img src={logo}></img>
                 
 
-            <form onSubmit={handleSubmit} id='Form'>
+            <form onSubmit={handleSubmit} className='Formul'>
                 <label htmlFor="username">Username:</label>
-                <input 
+                <input className='Input'
                     type="text" 
                     id="username" 
                     name="username" 
@@ -59,7 +60,7 @@ export default function Register() {
                 /><br /><br />
 
                 <label htmlFor="email">Email:</label>
-                <input 
+                <input className='Input'
                     type="email" 
                     id="email" 
                     name="email" 
@@ -69,7 +70,7 @@ export default function Register() {
                 /><br /><br />
                 
                 <label htmlFor="password">Password:</label>
-                <input 
+                <input className='Input'
                     type="password" 
                     id="password" 
                     name="password" 
@@ -79,7 +80,7 @@ export default function Register() {
                 /><br /><br />
                 
                 <label htmlFor="confirmPassword">Confirm Password:</label>
-                <input 
+                <input className='Input'
                     type="password" 
                     id="confirmPassword" 
                     name="confirmPassword" 
@@ -88,12 +89,9 @@ export default function Register() {
                     required 
                 />
                 {passwordError && <p style={{ color: 'red' }}>{passwordError}</p>}<br /><br />
-                
-                <button type="submit">Register</button>
             </form>
-            <br></br>
-            
-            <a>Already have an account?</a>
+            <button type="submit" className='Sign'>Register</button>
+            <Link to="/SignIn">Already have an account?</Link><br></br>
         </div>
     );
 }

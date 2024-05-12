@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/logo.png"
+import logo from "../../assets/logo.png"
 import { Link } from 'react-router-dom';
 
 
@@ -30,13 +30,13 @@ export default function SignIn() {
     };
 
     return (
-        <div className="Body">
+        <div className="core">
             <div className='overlay'></div>
                 <img src={logo}></img>
                 
-            <form onSubmit={handleSubmit} className='Form'>
+            <form onSubmit={handleSubmit} className='Formul'>
                 <label htmlFor="usernameOrEmail">Username or Email:</label>
-                <input 
+                <input className='Input'
                     type="text" 
                     id="usernameOrEmail" 
                     name="usernameOrEmail" 
@@ -46,7 +46,7 @@ export default function SignIn() {
                 /><br /><br />
                 
                 <label htmlFor="password">Password:</label>
-                <input 
+                <input className='Input'
                     type="password" 
                     id="password" 
                     name="password" 
@@ -54,12 +54,13 @@ export default function SignIn() {
                     onChange={handleInputChange} 
                     required 
                 /><br /><br />
-                
-                <button type="submit">Sign In</button>
+                <Link to="/Register">Create an Account</Link>
+                <br/>
+                <Link to="/Register">Password Forgotten?</Link>
             </form>
-            <br></br>
-            <Link to="/Register">Create an Account</Link><br></br>
-            <Link to="/Register">Password Forgotten?</Link>
+            <button type="submit" className='Sign'>Sign In</button>
+            
+            
         </div>
     );
 }
